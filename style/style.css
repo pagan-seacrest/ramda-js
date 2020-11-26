@@ -78,7 +78,6 @@ main {
     padding-left: 38px;
 }
 
-
 .banner {
     width: 885px;
     height: 529px;
@@ -121,6 +120,6 @@ main {
     font-size: 24px;
 }
 
-.bottom-menu-item:hover:not(:last-child) {
+.bottom-menu-item a:hover {
     color: #3181A6;
 }
