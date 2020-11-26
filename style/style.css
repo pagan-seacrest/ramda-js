@@ -1,0 +1,126 @@
+*::after, *::before {box-sizing: border-box;}
+
+a {text-decoration: none; color: #000;}
+
+header, main, footer {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+span {
+    color: #4BCAFF;
+}
+
+ul { list-style-type: none;}
+
+.main-menu {
+    display: flex;
+    width: 1280px;
+    height: 72px;
+    background-color: #35444F;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item {
+    border-left: 1px solid #fff;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:hover {
+    background-color: #222F3A;
+}
+
+.menu-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+}
+
+.aside-menu {
+    width: 400px;
+    height: 344px;
+    border: 1px solid #000;
+    margin-right: 32px;
+    margin-top: 16px;
+}
+.inset {
+    padding-left: 44px;
+    font-size: 27px;
+}
+
+.aside-menu-item:hover {
+    border: 1px solid #DBDBDB;
+    background-color: #DBDBDB;
+}
+
+.inset-item:hover {
+    padding-left: 38px;
+}
+
+
+.banner {
+    width: 885px;
+    height: 529px;
+    padding-left: calc(100% - (400px + 885px));
+    padding-top: 16px;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.paragraph {
+    padding-left: calc(100% - (400px + 885px));
+    font-size: 18px;
+}
+
+.bottom-menu {
+    width: 1280px;
+    height: 72px;
+    background-color: #63696E;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bottom-menu-item {
+    font-size: 28px;
+}
+
+.bottom-menu-item:not(:first-child) {
+    padding-left: 40px;
+}
+
+.bottom-menu-item:last-child {
+    margin-left: auto;
+    margin-right: 40px;
+    font-size: 24px;
+}
+
+.bottom-menu-item:hover:not(:last-child) {
+    color: #3181A6;
+}
